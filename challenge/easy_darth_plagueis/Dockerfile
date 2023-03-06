@@ -1,6 +1,6 @@
 # syntax=docker/dockerfile:1
 
-FROM ubuntu:20.04
+FROM ubuntu:rolling
 
 RUN apt-get update && apt-get install -y python3-pip
 
